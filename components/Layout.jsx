@@ -7,7 +7,7 @@ export default function Layout({ children, title = "HP by Nextjs" }) {
       <Head>
         <title>{title}</title>
       </Head>
-      <header>
+      <header className="sticky top-0 z-40">
         <nav className="bg-gray-800 w-screen">
           <div className="flex items-center pl-8 h-14">
             <div className="flex space-x-4">
