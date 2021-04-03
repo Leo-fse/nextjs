@@ -2,3 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.react-calendar-heatmap .color-scale-1 {
+  fill: #ce1515;
+}
+.react-calendar-heatmap .color-scale-10 {
+  fill: #2918c1;
+}
+.react-calendar-heatmap .color-scale-20 {
+  fill: #15e10e;
+}

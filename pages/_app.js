@@ -1,4 +1,6 @@
 import "tailwindcss/tailwind.css";
+import "react-calendar-heatmap/dist/styles.css";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
