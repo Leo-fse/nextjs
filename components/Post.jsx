@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Post({ post }) {
+export function Post({ post }) {
   return (
     <div>
       <span>{post.id}</span>

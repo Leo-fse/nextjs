@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import { Layout } from "../components/Layout";
 import { ContactCard } from "../components/ContactCard";
 
 export default function Contact() {
