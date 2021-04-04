@@ -22,9 +22,14 @@ export const Header = () => {
                 Blog
               </a>
             </Link>
-            <Link href="/blog-page-table">
+            <Link href="/blog-page-table-gridjs">
               <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
-                Blog-Table
+                Blog-Table(Grid.js)
+              </a>
+            </Link>
+            <Link href="/react-table-basic">
+              <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                react-table(Basic)
               </a>
             </Link>
             <Link href="/contact-page">
