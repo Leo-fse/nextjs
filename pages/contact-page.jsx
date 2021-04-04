@@ -4,7 +4,7 @@ import { ContactCard } from "../components/ContactCard";
 export default function Contact() {
   return (
     <Layout title="Contact">
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-center">
         <ContactCard
           title={"Contact Info"}
           address={"City A"}
@@ -17,30 +17,28 @@ export default function Contact() {
           email={"bbb.gmail.com"}
           phone={"0120-222-333"}
         />
-
         <ContactCard
           title={"権限申請"}
           address={"City C"}
           email={"ccc.gmail.com"}
           phone={"0120-333-444"}
         />
-
         <ContactCard
-          title={"権限申請"}
+          title={"なんや"}
           address={"City C"}
           email={"ccc.gmail.com"}
           phone={"0120-333-444"}
         />
 
         <ContactCard
-          title={"権限申請"}
+          title={"かんや"}
           address={"City C"}
           email={"ccc.gmail.com"}
           phone={"0120-333-444"}
         />
 
         <ContactCard
-          title={"権限申請"}
+          title={"聞いてね"}
           address={"City C"}
           email={"ccc.gmail.com"}
           phone={"0120-333-444"}

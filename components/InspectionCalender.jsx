@@ -8,6 +8,7 @@ export const InspectionCalender = () => {
 
   return (
     <>
+      <p className="mt-2">プラントA</p>
       <CalendarHeatmap
         startDate={startDate}
         endDate={endDate}
@@ -79,7 +80,7 @@ export const InspectionCalender = () => {
           { date: "2021-07-30", count: 20 },
         ]}
       />
-      <h1>プラントA</h1>
+      <p>プラントB</p>
       <CalendarHeatmap
         startDate={startDate}
         endDate={endDate}
@@ -162,20 +163,20 @@ export const InspectionCalender = () => {
           { date: "2021-08-08", count: 20 },
           { date: "2021-08-09", count: 20 },
           { date: "2021-08-10", count: 20 },
-          { date: "2021-08-20", count: 20 },
-          { date: "2021-08-21", count: 20 },
-          { date: "2021-08-22", count: 20 },
-          { date: "2021-08-23", count: 20 },
-          { date: "2021-08-24", count: 20 },
-          { date: "2021-08-25", count: 20 },
-          { date: "2021-08-26", count: 20 },
-          { date: "2021-08-27", count: 20 },
-          { date: "2021-08-28", count: 20 },
-          { date: "2021-08-29", count: 20 },
-          { date: "2021-08-30", count: 20 },
+          { date: "2021-08-20", count: 10 },
+          { date: "2021-08-21", count: 10 },
+          { date: "2021-08-22", count: 10 },
+          { date: "2021-08-23", count: 10 },
+          { date: "2021-08-24", count: 10 },
+          { date: "2021-08-25", count: 10 },
+          { date: "2021-08-26", count: 10 },
+          { date: "2021-08-27", count: 10 },
+          { date: "2021-08-28", count: 10 },
+          { date: "2021-08-29", count: 10 },
+          { date: "2021-08-30", count: 10 },
         ]}
       />
-      <h1>プラントB</h1>
+      <p>プラントC</p>
       <CalendarHeatmap
         startDate={startDate}
         endDate={endDate}
@@ -214,7 +215,7 @@ export const InspectionCalender = () => {
           { date: "2021-08-10", count: 1 },
         ]}
       />
-      <h1>プラントC</h1>
+      <p>プラントD</p>
       <CalendarHeatmap
         startDate={startDate}
         endDate={endDate}
@@ -225,54 +226,26 @@ export const InspectionCalender = () => {
           return `color-scale-${value.count}`;
         }}
         values={[
-          { date: "2021-04-15", count: 20 },
-          { date: "2021-04-16", count: 20 },
-          { date: "2021-04-17", count: 20 },
-          { date: "2021-04-18", count: 20 },
-          { date: "2021-04-19", count: 20 },
-          { date: "2021-04-20", count: 20 },
-          { date: "2021-04-21", count: 20 },
-          { date: "2021-04-22", count: 20 },
-          { date: "2021-04-23", count: 20 },
-          { date: "2021-04-24", count: 20 },
-          { date: "2021-04-25", count: 20 },
-          { date: "2021-04-26", count: 20 },
-          { date: "2021-04-27", count: 20 },
-          { date: "2021-04-28", count: 20 },
-          { date: "2021-04-29", count: 20 },
-          { date: "2021-04-30", count: 20 },
-          { date: "2021-05-01", count: 20 },
-          { date: "2021-05-02", count: 20 },
-          { date: "2021-05-03", count: 20 },
-          { date: "2021-05-04", count: 20 },
-          { date: "2021-05-05", count: 20 },
-          { date: "2021-05-06", count: 20 },
-          { date: "2021-05-07", count: 20 },
-          { date: "2021-05-08", count: 20 },
-          { date: "2021-05-09", count: 20 },
-          { date: "2021-05-10", count: 20 },
-          { date: "2021-05-11", count: 20 },
-          { date: "2021-05-12", count: 20 },
-          { date: "2021-05-13", count: 20 },
-          { date: "2021-05-14", count: 20 },
-          { date: "2021-05-15", count: 20 },
-          { date: "2021-05-16", count: 20 },
-          { date: "2021-05-17", count: 20 },
-          { date: "2021-05-18", count: 20 },
-          { date: "2021-05-19", count: 20 },
-          { date: "2021-05-20", count: 20 },
-          { date: "2021-05-21", count: 20 },
-          { date: "2021-05-22", count: 20 },
-          { date: "2021-05-23", count: 20 },
-          { date: "2021-05-24", count: 20 },
-          { date: "2021-05-25", count: 20 },
-          { date: "2021-05-26", count: 20 },
-          { date: "2021-05-27", count: 20 },
-          { date: "2021-05-28", count: 20 },
-          { date: "2021-05-29", count: 20 },
-          { date: "2021-05-30", count: 20 },
-          { date: "2021-05-31", count: 20 },
-          { date: "2021-06-01", count: 20 },
+          { date: "2021-04-15", count: 1 },
+          { date: "2021-04-16", count: 1 },
+          { date: "2021-04-17", count: 1 },
+          { date: "2021-04-18", count: 1 },
+          { date: "2021-04-19", count: 1 },
+          { date: "2021-04-20", count: 1 },
+          { date: "2021-04-21", count: 1 },
+          { date: "2021-04-22", count: 1 },
+          { date: "2021-04-23", count: 1 },
+          { date: "2021-04-24", count: 1 },
+          { date: "2021-04-25", count: 1 },
+          { date: "2021-04-26", count: 1 },
+          { date: "2021-04-27", count: 1 },
+          { date: "2021-04-28", count: 1 },
+          { date: "2021-04-29", count: 1 },
+          { date: "2021-04-30", count: 1 },
+          { date: "2021-05-01", count: 1 },
+          { date: "2021-05-02", count: 1 },
+          { date: "2021-05-03", count: 1 },
+          { date: "2021-05-04", count: 1 },
           { date: "2021-06-02", count: 20 },
           { date: "2021-06-03", count: 20 },
           { date: "2021-06-04", count: 20 },
@@ -292,21 +265,6 @@ export const InspectionCalender = () => {
           { date: "2021-06-18", count: 20 },
           { date: "2021-06-19", count: 20 },
           { date: "2021-06-20", count: 20 },
-          { date: "2021-07-01", count: 10 },
-          { date: "2021-07-02", count: 10 },
-          { date: "2021-07-03", count: 10 },
-          { date: "2021-07-04", count: 10 },
-          { date: "2021-07-05", count: 10 },
-          { date: "2021-07-06", count: 10 },
-          { date: "2021-07-07", count: 10 },
-          { date: "2021-07-08", count: 10 },
-          { date: "2021-07-09", count: 10 },
-          { date: "2021-07-10", count: 10 },
-          { date: "2021-07-11", count: 10 },
-          { date: "2021-07-12", count: 10 },
-          { date: "2021-07-13", count: 10 },
-          { date: "2021-07-14", count: 10 },
-          { date: "2021-07-15", count: 10 },
           { date: "2021-07-16", count: 10 },
           { date: "2021-07-17", count: 10 },
           { date: "2021-07-18", count: 10 },
@@ -335,7 +293,6 @@ export const InspectionCalender = () => {
           { date: "2021-08-10", count: 10 },
         ]}
       />
-      <h1>プラントD</h1>
     </>
   );
 };

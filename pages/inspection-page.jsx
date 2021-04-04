@@ -4,7 +4,10 @@ import { InspectionCalender } from "../components/InspectionCalender";
 export default function Inspection() {
   return (
     <Layout title="Inspection">
-      <InspectionCalender />
+      <div className="mx-8 my-2">
+        <p className="font-mono">Inspection Schedule</p>
+        <InspectionCalender />
+      </div>
     </Layout>
   );
 }
