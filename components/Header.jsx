@@ -22,6 +22,11 @@ export const Header = () => {
                 Blog
               </a>
             </Link>
+            <Link href="/blog-page-table">
+              <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
+                Blog-Table
+              </a>
+            </Link>
             <Link href="/contact-page">
               <a className="text-gray-300 hover:bg-gray-700 px-3 py-2 rounded">
                 Contact
