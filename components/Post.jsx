@@ -10,6 +10,8 @@ export function Post({ post }) {
           {post.title}
         </span>
       </Link>
+      <br />
+      <span className="ml-8 line-clamp-1 text-gray-500">{post.body}</span>
     </div>
   );
 }

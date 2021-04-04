@@ -5,7 +5,7 @@ export default function Inspection() {
   return (
     <Layout title="Inspection">
       <div className="mx-8 my-2">
-        <p className="font-mono">Inspection Schedule</p>
+        <p className="font-bold font-mono">Inspection Schedule</p>
         <InspectionCalender />
       </div>
     </Layout>
