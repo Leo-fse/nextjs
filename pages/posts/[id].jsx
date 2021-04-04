@@ -13,7 +13,7 @@ export default function Post({ post }) {
         {"ID : "}
         {post.id}
       </p>
-      <p className="mb-8 text-xl font-bold">{post.title}</p>
+      <p className="px-8 mb-8 text-xl font-bold">{post.title}</p>
       <p className="px-10">{post.body}</p>
       <Link href="/blog-page">
         <div className="flex cursor-pointer mt-12">
