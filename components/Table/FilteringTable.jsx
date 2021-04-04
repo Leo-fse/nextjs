@@ -3,7 +3,7 @@ import { useTable, useSortBy, useGlobalFilter, useFilters } from "react-table";
 import MOCK_DATA from "../MOCK_DATA.json";
 import { COLUMNS, GROUPED_COLUMNS } from "./columns";
 import classes from "./BasicTable.module.css";
-import { GlobalFilter } from "./GlobalFilter";
+// import { GlobalFilter } from "./GlobalFilter";
 import { ColumnFilter } from "./ColumnFilter";
 
 export const FilteringTable = () => {
@@ -28,15 +28,15 @@ export const FilteringTable = () => {
   } = useTable(
     { columns, data, defaultColumn },
     useFilters,
-    useGlobalFilter,
+    // useGlobalFilter,
     useSortBy
   );
 
-  const { globalFilter } = state;
+  // const { globalFilter } = state;
 
   return (
     <>
-      <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} />
+      {/* <GlobalFilter filter={globalFilter} setFilter={setGlobalFilter} /> */}
       <table {...getTabelProps} className={classes.table}>
         <thead>
           {headerGroups.map((headerGroup) => (
